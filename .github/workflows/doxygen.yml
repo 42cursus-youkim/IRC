@@ -30,7 +30,6 @@ jobs:
         with:
           working-directory: .
           doxyfile-path: ./docs/Doxyfile
-          # additional-packages: font-fira-code
 
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
